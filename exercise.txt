@@ -1,0 +1,22 @@
+
+
+Étape 9 : augmentation du prix
+Acheter plein de multiplicateurs est trop facile. Essayez à partir de l'étape 6, vous comprendrez pourquoi il faudrait que plus on achète de multiplicateurs, plus ceux-ci soit chers. Par exemple, le premier vaudrait 50, le suivant 100, le suivant 200, etc.. Pas la peine de vous compliquer la vie, ne faites pas pleins de conditions. Trouvez une autre façon de faire évoluer le prix !
+
+Étape 10 : affichage du prix
+Dans le texte du bouton, en plus du « x5 », ajouter le coût du prochain achat.
+
+Étape 11 : autoclicker
+Nouvelle amélioration à acheter : Autoclick. Dès que vous avez un score de 200, un clic est fait automatiquement chaque seconde. (setInterval est ton ami)
+
+Étape 12 : achat d'autoclicker
+L'autoclicker ne sera plus automatique. Il faut dorénavant acheter l'autoclicker. Vous ajouterez un bouton avec l'id autoclic. Il coutera 500. Une fois que l'autoclicker a été acheté, il faudra désactiver le bouton d'achat de l'autoclic.
+
+Étape 13 : achat d'un bonus
+Désormais, on doit pouvoir acheter un bonus qui augmente le score de 200% à chaque clic pendant 30 secondes. C'est à dire que si à chaque clic, le score augmente de 3, pendant les 30 secondes de bonus le score augmentera de 6 à chaque clic, au bout des 30 secondes le score augmentera à nouveau de 3 par clic. Vous créerez le bouton « BONUS » avec l'id bonus, et le bonus coutera 5000. Lorsque le bonus est acheté, le nombre de seconde s'affichera dans le bouton avec le décompte et le bouton devra etre désactivé pendant le temps du bonus. Quand le bonus est fini, le bouton est réactivé et retrouve son texte d'origine.
+
+Étape 14 : désactiver les boutons (si j'ai pas le score pour acheter les améliorations)
+Faire en sorte que les boutons multiplicateur, autoclic et bonus ne soient clicables QUE si j'ai le score nécessaire pour les acheter.
+
+Étape 15 : du CSS
+Que ce soit beau ! Pas d'images !
