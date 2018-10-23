@@ -1,22 +1,14 @@
+Step 11 : Autoclicker
+New upgrade to buy: Autoclick. As soon as you hit 200 score, a click is made automatically each second. (setInterval is your friend)
 
+Step 12 : Autoclicker purchase
+Autoclicked won't be automatic anymore. From now on you'll need to buy the autoclicker. Add a button with an autoclick identifier. It'll cost 500. Once the autoclicker bought, the button will have to be disabled.
 
-Étape 9 : augmentation du prix
-Acheter plein de multiplicateurs est trop facile. Essayez à partir de l'étape 6, vous comprendrez pourquoi il faudrait que plus on achète de multiplicateurs, plus ceux-ci soit chers. Par exemple, le premier vaudrait 50, le suivant 100, le suivant 200, etc.. Pas la peine de vous compliquer la vie, ne faites pas pleins de conditions. Trouvez une autre façon de faire évoluer le prix !
+Step 13 : Purchase of a bonus
+From now on, we have to be able to buy a bonus that increase the score on each click by 200% for 30 seconds. It means that if you're supposed to get 3 on a click, for next 30 seconds the bonus will increase that click value to 6. After the 30 seconds the score should increase by 3 again. Create the « BONUS » button with an identifier bonus, and set the cost at 5000. Once the bonus bought, the number of seconds will be displayed in the button with the count and the button will have to be desactivated while the bonus is active. Once the bonus is over, the button have to be reactivated with the same text as before pressing it.
 
-Étape 10 : affichage du prix
-Dans le texte du bouton, en plus du « x5 », ajouter le coût du prochain achat.
+Step 14 : Desactivate buttons (if you don't have enough to buy them)
+Make it so the buttons multiplier, autoclick and bonus can't be clicked UNLESS you have enough score to buy them.
 
-Étape 11 : autoclicker
-Nouvelle amélioration à acheter : Autoclick. Dès que vous avez un score de 200, un clic est fait automatiquement chaque seconde. (setInterval est ton ami)
-
-Étape 12 : achat d'autoclicker
-L'autoclicker ne sera plus automatique. Il faut dorénavant acheter l'autoclicker. Vous ajouterez un bouton avec l'id autoclic. Il coutera 500. Une fois que l'autoclicker a été acheté, il faudra désactiver le bouton d'achat de l'autoclic.
-
-Étape 13 : achat d'un bonus
-Désormais, on doit pouvoir acheter un bonus qui augmente le score de 200% à chaque clic pendant 30 secondes. C'est à dire que si à chaque clic, le score augmente de 3, pendant les 30 secondes de bonus le score augmentera de 6 à chaque clic, au bout des 30 secondes le score augmentera à nouveau de 3 par clic. Vous créerez le bouton « BONUS » avec l'id bonus, et le bonus coutera 5000. Lorsque le bonus est acheté, le nombre de seconde s'affichera dans le bouton avec le décompte et le bouton devra etre désactivé pendant le temps du bonus. Quand le bonus est fini, le bouton est réactivé et retrouve son texte d'origine.
-
-Étape 14 : désactiver les boutons (si j'ai pas le score pour acheter les améliorations)
-Faire en sorte que les boutons multiplicateur, autoclic et bonus ne soient clicables QUE si j'ai le score nécessaire pour les acheter.
-
-Étape 15 : du CSS
-Que ce soit beau ! Pas d'images !
+Step 15 : Some CSS
+Make it pretty ! No pictures !
