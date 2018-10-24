@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <button id="clickbutton" type="button">Click me to add cookies</button>
-    <div>Cookie Count: <span id="show">0</span></div>
-    <br />
-    <button id="multibutton" type="button"><span id="multiplaceholder">Multiplicator x1 <br />On the next click the multiplier will cost you x5</span></button>
-    <div id="multiplyvalue"></div>
-    <br />
+    <div id="one">
+        <div><span id="cookiecounterid">Cookie Count: </span><span id="show">0</span></div>
+        <br />
+        <button id="clickbutton" type="button">Click me to add cookies</button>
+    </div>
+    <div id="two">
+        <button id="multibutton" type="button"><span id="multiplaceholder">Multiplicator x 1 <br />Next multiply click
+                cost = 5</span></button>
+    </div>
+    <div id="three">
+        <button id="autoclickbutton" type="button" style="visibility: hidden;"><span id="autoclickph"></span></button>
+    </div>
 
     <script src="js/script.js"></script>
 </body>

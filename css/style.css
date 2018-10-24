@@ -1,0 +1,58 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* FIRST DIV */
+
+#one {
+    grid-column-start: 1;
+}
+
+#cookiecounterid {
+    font-size: 25px;
+}
+
+#show {
+    font-size: 60px;
+}
+
+#clickbutton {
+    border: 2px solid red;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: chartreuse;
+    width: 350px;
+}
+
+/* SECOND DIV */
+
+#two {
+    grid-column-start: 2;
+}
+
+#multibutton {
+    border: 2px solid red;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: yellow;
+    width: 350px;
+}
+
+/* THIRD DIV */
+
+#three {
+    grid-column-start: 3;
+}
+
+#autoclickbutton {
+    border: 2px solid red;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: lightskyblue;
+    width: 350px;
+}
