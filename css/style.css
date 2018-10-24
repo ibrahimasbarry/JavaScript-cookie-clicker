@@ -56,3 +56,12 @@ body {
     background-color: lightskyblue;
     width: 350px;
 }
+
+#bonusbutton {
+    border: 2px solid red;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(231, 142, 231);
+    width: 350px;
+}
