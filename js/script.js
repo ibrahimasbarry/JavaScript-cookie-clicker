@@ -61,13 +61,14 @@ function autoClick() {
 autoClickButt.addEventListener("click", autoClick);
 
 let counter = 30;
-let doubleCountdown = setInterval(function () {
-        counter--;
-        // multiScore = multiScore * 2;
-        if (counter === 0) {
-            clearInterval(doubleCountdown);
-        }       
-    }, 1000);
+// let doubleCountdown = setInterval(function () {
+//         counter--;
+//         // multiScore = multiScore * 2;
+//         if (counter === 0) {
+//             clearInterval(doubleCountdown);
+//         }       
+//     }, 1000);
+// REDO THIS PART
 
 
 function showHideBonus() {
