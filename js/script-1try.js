@@ -20,12 +20,6 @@ buttonClick.addEventListener("click", addScore);
 
 function clickNotFree() {
 
-    function multiMultiplicator(decreaseScore) {
-        decreaseScore *= 2;
-        return decreaseScore;
-    }
-    multiMultiplicator();
-
     if (score > decreaseScore) { 
         // putting increaseMulti inside the if prevents the multi counter from increasing when you click on it before it disappears and IF loop makes sure you can only use the multiplicator when enough credits (not negative)
         

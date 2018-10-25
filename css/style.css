@@ -1,13 +1,15 @@
 body {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 220px 115px 220px;
     font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    justify-items: center;
 }
 
 /* FIRST DIV */
 
 #one {
-    grid-column-start: 1;
+    grid-row-start: 1;
 }
 
 #cookiecounterid {
@@ -30,7 +32,7 @@ body {
 /* SECOND DIV */
 
 #two {
-    grid-column-start: 2;
+    grid-row-start: 2;
 }
 
 #multibutton {
@@ -40,12 +42,13 @@ body {
     padding: 10px;
     background-color: yellow;
     width: 350px;
+    margin-top: 10px;
 }
 
 /* THIRD DIV */
 
 #three {
-    grid-column-start: 3;
+    grid-row-start: 3;
 }
 
 #autoclickbutton {
@@ -55,6 +58,7 @@ body {
     padding: 10px;
     background-color: lightskyblue;
     width: 350px;
+    margin-top: 20px;
 }
 
 #bonusbutton {
@@ -64,4 +68,5 @@ body {
     padding: 10px;
     background-color: rgb(231, 142, 231);
     width: 350px;
+    margin-top: -20px;
 }
